@@ -5,7 +5,7 @@ import './App.css'
 
 function App() {
   const [isOn, setIsOn] = useState(false);
-  const [bulb, setBulb] = useState('src/assets/download (2).jpg');
+  const [bulb, setBulb] = useState('/download-(2).jpg');
 
 
   function togglebutton(e) {
@@ -13,11 +13,11 @@ function App() {
   }
   useEffect(() => {
     if (isOn) {
-      setBulb('src/assets/download (1) .png')
+      setBulb('/download-(1) .png')
     }
 
     else {
-      setBulb('src/assets/download (2).png')
+      setBulb('/download-(2).jpg')
     }
 
 
